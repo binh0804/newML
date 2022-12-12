@@ -1,0 +1,12 @@
+{
+    "ROYAL FLUSH":"Xì tố là trường hợp 5 lá liên tiếp đồng chất và lá cao nhất là A, hay có thể hiểu đơn giản là 5 lá 10,J,Q,K,A đồng chất.",
+    "STRAIGHT FLUSH":"Thùng phá sảnh là trường hợp 5 lá liên tiếp đồng chất, ví dụ (2,3,4,5,6) hay (9,10,J,Q,K) đồng chất.",    
+    "FLUSH":"Thùng là trường hợp 5 lá bài cùng chất nhưng không liên tiếp",    
+    "FOUR OF A KIND":"Tứ quý là trường hợp có 4 lá bài cùng số",
+    "FULL HOUSE":"Cù lũ là trường hợp có 3 lá bài cùng số và một đôi",
+    "STRAIGHT":"Sảnh là trường hợp 5 lá liên tiếp nhưng không đồng chất",
+    "THREE OF A KIND":"Bộ ba là trường hợp có 3 lá bài cùng số",    
+    "TWO PAIR":"Hai đôi là trường hợp có hai cặp bài cùng số",    
+    "PAIR":"Đôi là trường hợp có hai lá bài cùng số",
+    "HIGH CARD":"Mậu thầu là trường hợp 5 là trường hợp 5 lá bài không có liên kết nào với nhau."
+}

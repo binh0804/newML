@@ -1,20 +1,33 @@
 section.main.css-k1vhr4.egzxvld3  {
-    background-image: linear-gradient(#FDFDBD, #C8FFD4);
+    background-image: url('https://thumbs.gfycat.com/BackQuickFrog-size_restricted.gif') !important;
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    align-items: unset;
 }
-div.css-1n76uvr.e1tzin5v0{
-    background-color: #fff;
+div.block-container.css-12oz5g7.egzxvld2
+{
+    background-image:linear-gradient(#FF8787, #C8FFD4) !important;
+    padding-right: 4cm !important;
+}
+div.css-zt5igj.e16nr0p33{
+    background-color: transparent !important;
     border-radius: 2%;
-    border: 2px solid rgb(250, 1, 1);
+    /* border: 2px solid rgb(250, 1, 1); */
     min-width: 1000px;
     padding-bottom: 30px;
     padding-left: 50px;
 }
+
 label.st-bi.st-b3.st-bj.st-bg.st-ar {
     color: #B8E8FC;
     margin-bottom: 20px;
     margin: 30px;
     text-align: center;
 }
+
 label.st-bi.st-b3.st-bj.st-bg.st-ar:hover {
     background-color:  #B8E8FC;
 }
@@ -32,4 +45,80 @@ div.css-184tjsw p {
 }
 button.css-1x8cf1d.edgvbvh10:hover {
     background-color: greenyellow;
+}
+div.css-10trblm.e16nr0p30{
+    color: black !important;
+}
+h1{
+    color: black !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 1.2cm !important;
+    text-align: left !important;
+    padding-left: 40px o !important;
+}
+span {
+    color: black !important;
+}
+li
+{
+    color: black !important;
+    font-size: 0.7cm !important;
+}
+
+header{
+    display: none !important;
+}
+footer{
+    display: none !important;
+}
+
+div.css-6qob1r.e1fqkh3o3{
+    background-image: linear-gradient( #FF8787, #C8FFD4) !important;
+
+}
+
+div.st-c0.st-ce.st-cf.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-cg.st-ch
+{
+    color: black !important;
+}
+div.st-bo.st-ci.st-bq.st-br.st-bs.st-bt.st-ay.st-b3.st-bu.st-bv.st-bw.st-b5.st-bx.st-by.st-bz.st-c0.st-c1.st-c2.st-b1.st-c3
+{
+    background-color: white !important;
+}
+
+div.st-cj.st-bq.st-br.st-bs.st-bt.st-ck.st-b1.st-c3.st-cl
+{
+    background-color: white !important;
+
+}
+
+div.st-cj.st-bq.st-br.st-bs.st-bt.st-ck.st-b1.st-c3.st-cl
+{
+    background-color: white !important;
+}
+input[type='ratio']:hover::before
+{
+    background-color: white !important;
+
+}
+
+div.css-1yy6isu p
+{
+    color: #1f3956 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 1.2cm !important;
+    font-weight: 800;
+    text-align: left !important;
+}
+
+div.css-1fv8s86.e16nr0p34 p{
+    font-size: 40px !important;
+    font-weight: 750 !important;
+    margin-left: 15% !important;
+    text-align: left !important;
+    color: #E0144C !important;
+}
+div.css-1vq4p4l.e1fqkh3o4
+{
+    padding-top: 10px;
 }
