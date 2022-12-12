@@ -201,10 +201,10 @@ def app():
     st.write('  * Một bộ bài có 52 lá và chia thành 4 chất: HEART :heart:, DIAMOND :diamonds: , CLUBS :clubs: , SPADES :spades:.')
     cols = st.columns(4) # number of columns in each row! = 2
     # first column of the ith row
-    cols[0].image("apps\static\images\spade.png", use_column_width=True)
-    cols[1].image("apps\static\images\cludes.png", use_column_width=True)
-    cols[2].image("apps\static\images\diamond.png", use_column_width=True)
-    cols[3].image("apps\static\images\heart.png", use_column_width=True)
+    cols[0].image("apps/static/images/spade.png", use_column_width=True)
+    cols[1].image("apps/static/images/cludes.png", use_column_width=True)
+    cols[2].image("apps/static/images/diamond.png", use_column_width=True)
+    cols[3].image("apps/static/images/heart.png", use_column_width=True)
 
     st.write('  * Mỗi chất có 13 lá với giá trị từ 2 tới 10 và 4 lá đặc biệt KING 👑, QUEEN👸, JACK 👦, ACES 🅰️')
     st.write('#### Poker rule')
