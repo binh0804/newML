@@ -159,7 +159,7 @@ def app():
                         with st.spinner(text='Xử lý Video'):
                             for vid in os.listdir(get_detection_folder()):
                                 st.video(str(Path(f'{get_detection_folder()}') / vid))
-                            st.balloons()
+                                st.balloons()
                           
                             processed = True
 
