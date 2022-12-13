@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+runs/detect/exp/WIN_20221213_02_06_05_Pro.mp4
+runs/detect/exp2/WIN_20221213_02_06_05_Pro.mp4
+runs/detect/exp3/WIN_20221213_02_06_05_Pro.mp4
+runs/detect/exp4/WIN_20221213_02_06_05_Pro.mp4
+runs/detect/exp5/WIN_20221213_02_06_05_Pro.mp4
