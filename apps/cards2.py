@@ -210,14 +210,6 @@ def app():
     st.write('#### Poker rule')
     st.write('  * Mỗi người chơi sẽ được phát 2 lá bài và phải kết hợp với 5 lá bài chung trên bàn để chọn ra một bộ 5 lá mạnh nhất có thể.')
     st.title('Hãy chọn ảnh/video và xem kết quả')
-    # st.write('  STRAIGHT (Sảnh): Any five consecutive cards of different suits')
-    # st.write('  FLUSH (Thùng): Five cards with the same suit')
-    # st.write('  STRAIGHT FLUSH (Thùng phá sảnh): Any straight with all five cards of the same suit')
-    # st.write('  FOUR OF A KIND (Tứ quý): Four cards of one rank and one card of another rank')
-    # st.write('  THREE OF A KIND (Bộ ba): any three cards of the same number or face value')
-    # st.write('  FULL HOUSE (Cù lũ): THREE OF A KIND plus any other two cards of the same number or face')
-    # st.write('  PAIR (Đôi): two cards of one rank')
-    # st.write('  TWO PAIR (Hai đôi): two cards of one rank, two cards of another rank')
-    # st.write('  HIGH CARD (Mậu thầu): ACES with a 10, J, Q or K')
+
 
    
