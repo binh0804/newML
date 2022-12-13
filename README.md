@@ -5,8 +5,7 @@ A simple framework in python to create multi page web application using streamli
 
 1. Clone the repository:
 ```
-$ git clone git@github.com:upraneelnihar/streamlit-multiapps
-$ cd streamlit-multiapps
+$ git clone https://github.com/binh0804/newML.git
 ```
 
 2. Install dependencies:
@@ -21,7 +20,7 @@ streamlit run app.py
 
 # How to add new app
 
-1. Add a new python file in `apps/`  folder with a function named `app`.
+1. Add a new python file in `apps/`  folder with a function named `app` (must have).
 
 ```
 # apps/new_app.py
@@ -36,8 +35,9 @@ def app():
 
 ```
 from apps import newapp # import your app modules here
+```
+3. DONE !
 
-app = MultiApp()
 
 # Add all your application here
 app.add_app("New App", newapp.app)
