@@ -1,7 +1,7 @@
 import argparse
 import time
 from pathlib import Path
-
+import os
 import cv2
 import torch
 import torch.backends.cudnn as cudnn
@@ -209,6 +209,7 @@ def detect(opt, save_img=False, MSG_POKER = {}):
                         vid_writer = cv2.VideoWriter(
                             save_path, cv2.VideoWriter_fourcc(*"AVC1"), fps, (w, h))
                     vid_writer.write(im0)
+                    os.system('ffmpeg -i {} -vcodec libx264 {}'.format(save_path, save_path.replace('tmp', '')))
 
     if save_txt or save_img:
         s = f"\n{len(list(save_dir.glob('labels/*.txt')))} labels saved to {save_dir / 'labels'}" if save_txt else ''
